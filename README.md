@@ -33,14 +33,14 @@ Fajlovi sa namernim greškama za vežbanje rešavanja problema.
 ## Primer konfiguracije
 
 Osnovna konfiguracija rutera:
--Router> enable 
--Router# configure terminal 
--Router(config)# hostname R1 
--R1(config)# interface GigabitEthernet0/0 
--R1(config-if)# ip address 192.168.1.1 255.255.255.0 
--R1(config-if)# no shutdown 
--R1(config-if)# exit 
--R1(config)# ip route 0.0.0.0 0.0.0.0 192.168.1.254 
+- Router> enable 
+- Router# configure terminal 
+- Router(config)# hostname R1 
+- R1(config)# interface GigabitEthernet0/0 
+- R1(config-if)# ip address 192.168.1.1 255.255.255.0 
+- R1(config-if)# no shutdown 
+- R1(config-if)# exit 
+- R1(config)# ip route 0.0.0.0 0.0.0.0 192.168.1.254 
 
 ## Zahtevi
 
